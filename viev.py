@@ -3,12 +3,6 @@
 def get_data():
     
     return f"{input('Введите фамилию: ')} {input('Введите имя: ')} {input('Введите класс: ')}\n"
-     
-def get_class():
-    return input('Введите № класса: ') 
-
-def get_sort_data():
-    return input('Введите фамилию ученика:')        
 
 def get_number_operasion():
     return input('Выберите № нужной категории\n \
@@ -18,4 +12,5 @@ def get_number_operasion():
              4-показать учеников нужного вам класса\n \
              5-показать всю таблицу\n \
              6-показать информацию по ученику\n \
-             7-выход\n ')    
+             7-добавить ученика\n \
+             8-выход\n ')    

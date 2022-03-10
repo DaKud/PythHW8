@@ -1,9 +1,8 @@
 
-import viev
 
 
-def write_file():
-    data=viev.get_data()
+
+def write_file(data):
     with open('file.csv','a') as file:
         file.writelines(data)
           
