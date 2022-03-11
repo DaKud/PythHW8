@@ -1,6 +1,3 @@
+import controller 
 
-from main import button
-
-
-button()
-
+controller.button()

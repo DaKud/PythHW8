@@ -15,6 +15,3 @@ def read_file():
         return file.readlines()
     
       
-
-# write_file()    
-# print(*read_file(),sep='')
