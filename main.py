@@ -10,15 +10,15 @@ def sort_data(number,read,write,sor,da,data):
         elif d=='3':
             print(*da(2,read()),sep='\n')    
         elif d=='4':
-            print(*sor(input('Введите № класса: '),read()),sep='')   
+            print(*sor(input('Input Group No: '),read()),sep='')   
         elif d=='5':
             print(*read(),sep='')
         elif d=='6':
-            print(*sor(input('Введите фамилию ученика:'),read()),sep='')    
+            print(*sor(input('Input student Name:'),read()),sep='')    
         elif d=='7':
             write(data())
         elif d=='8':
-            print('До встречи!')        
+            print('Thnks')        
             break  
 
   
